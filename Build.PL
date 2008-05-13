@@ -11,10 +11,9 @@ my $build = Module::Build->new(
 		'Test::More' => '0.47',
 		'Scalar::Util' => '1.14',
 	},
-	create_makefile_pl => 'traditional',
 	dist_author => 'Eugen Sobchenko <ejs@cpan.org>',
 	add_to_cleanup => [
-		'META.yml', '*.gz', 'Makefile.PL',
+		'META.yml', '*.gz',
 	],
 );
 

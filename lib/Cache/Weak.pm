@@ -5,7 +5,7 @@ package Cache::Weak;
 use strict;
 use warnings;
 
-use version; our $VERSION = qv('1.0.2');
+use version; our $VERSION = qv('1.0.3');
 
 use Carp qw/carp croak/;
 use Scalar::Util qw/weaken/;
@@ -257,6 +257,8 @@ If you get an error message about weak references not being implemented, this mo
 not work.
 
 =head1 SEE ALSO
+
+L<http://github.com/esobchenko/cache-weak/> this module on GitHub.
 
 L<http://en.wikipedia.org/wiki/Weak_reference> about weak references.
 
