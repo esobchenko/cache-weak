@@ -15,6 +15,11 @@ my $build = Module::Build->new(
 	add_to_cleanup => [
 		'META.yml', '*.gz',
 	],
+	meta_merge => {
+		resources => {
+			repository => 'https://github.com/esobchenko/cache-weak',
+		},
+	},
 );
 
 $build->create_build_script;
